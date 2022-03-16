@@ -210,7 +210,7 @@ header .logo{
  /*==TEXTO 1 DEL SLIDER ==*/
 
 .carousel-caption  h2 {
-  margin-top: -50px;
+  margin-top: -40px;
 	font-size:50px;
 	color: rgb(255, 255, 255);
 }
@@ -852,6 +852,7 @@ body{
 
 
 .container-img{
+  margin-top: 70px;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -890,9 +891,10 @@ transition: transform .4s ease-in;
   cursor: pointer;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
   .img-show{
-      width: 600px;
+      width: 450px;
+      height: 420px;
   }
 
   .copy{
